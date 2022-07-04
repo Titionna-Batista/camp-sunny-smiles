@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #DB2B39;
+}
+.navbar {
+    background:#981717;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.text-only-cont {
+    background-color: beige;
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    word-wrap: break-word;
+}
+
+#text-span{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#footer-text{
+ font-size: x-small;
+ background: rgba(152, 23, 23, .4)
+}
