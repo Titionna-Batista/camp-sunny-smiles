@@ -16,15 +16,28 @@ body {
 h1, .subtitle{
     margin: auto;
     color: #fff;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 80px;
+    margin-left: 15px;
+    margin-right: 15px;
+   
 }
 
 .subtext{
     margin: auto;
+    margin-top: 10px;
     font-size: medium;
+    font-family: 'Lato', sans-serif;
+    color:aliceblue;
 }
 
 .subtitle{
-    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
 }
 
 /* Navigation Bar Styling */
@@ -70,7 +83,7 @@ h1, .subtitle{
 
 /*Testimonial General Styling*/
 .camper-image, .camper-image-one {
-    border-radius: 1rem;
+    border-radius: 2rem;
     border: rgb(86, 17, 17);
     background-color: #981717;
     border-width: 3px;
@@ -93,27 +106,29 @@ h1, .subtitle{
 
     /* Styling Image and Text */
     .camper-image {
-        grid-column: 2;
-        grid-row: 2;
+        /**grid-column: 2;
+        grid-row: 2; **/
         float: right;
         margin-right: 15px;
+        padding: 20px;
     }
 
     #camper-quote{
-        grid-column: 1;
-        grid-row: 2;
+        /**grid-column: 1;
+        grid-row: 2;**/
         margin-top: 20px;
     }
     #camper-deets{
-        grid-column: 1;
-        grid-row: 1;
+        /**grid-column: 1;
+        grid-row: 1;**/
         font-style: italic;
 
     }
 
-    .camper-block{
-        margin-bottom: 15px;
+    h1{
+        font-size: 3em;
     }
+
 }
 
 @media screen and (min-width:601px) {
@@ -129,14 +144,20 @@ h1, .subtitle{
         grid-row: 1/span 3;
         float: right;
         margin-right: 15px;
+        padding: 20px;
     }
     #camper-quote{
         grid-column: 1/span 2;
         grid-row: 2;
+        margin-left: 20px;
+        padding: 10px;
+        padding-top: 30px;
     }
     #camper-deets{
         grid-column: 1;
         grid-row: 2;
+        font-style: italic;
+        margin-left: 25px;
 
     }
 }

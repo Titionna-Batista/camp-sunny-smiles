@@ -14,36 +14,29 @@
 
       <!--Favicon Linking-->
       <link rel="icon" type="image/x-icon" href="../images/favicon_sun/favicon.ico">
+
+      <!--JQuery Linking-->
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+      <!--Font Linking-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@300&family=Lato:wght@100;300&display=swap" rel="stylesheet">
 </head>
 
 
 <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#">Logo</a>
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="main-navigation">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./amenities.html">Camp Amenities</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./datesnrates.html">Dates/Rates</a>
-                    <!--Will feature a calendar if im up for it-->
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./faq.html">FAQ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <!--Adding Nav bar-->
+    <div id="nav-placeholder">
+
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--End of Nav bar-->
     <h1>Hello!</h1>
     </body>
 </html>
